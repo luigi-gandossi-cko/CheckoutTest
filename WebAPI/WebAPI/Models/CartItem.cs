@@ -19,6 +19,10 @@ namespace WebAPI.Models
             Quantity = quantity;
             Product = product;
         }
+
+        /// <summary>
+        /// Contain all Item in every Cart
+        /// </summary>
         public static List<CartItem> AllItem = new List<CartItem> { };
     }
 }
